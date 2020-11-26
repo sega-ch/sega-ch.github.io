@@ -1,0 +1,266 @@
+/* блоки */
+.mainDiv
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(garage.png);
+    
+}
+
+.header
+{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.social
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item
+{
+    margin: 40px;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+    font-weight: bold;  
+}
+
+.item1
+{
+    margin: 40px;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: black;
+}
+
+.OurInf
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.logotxt
+{
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.tell
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: white;
+    font-style: bold;
+   text-align: center;
+}
+
+.aboutUs
+{
+    background-color: rgb(255, 239, 239);
+    display: flex;
+    flex-direction: column;
+}
+
+.MainUsItem
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 50px;
+     color: black;
+     font-weight: bold;
+     text-align: center;
+     margin: 30px;
+}
+
+.usItem
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 30px;
+     color: black;
+     text-align: justify;
+     margin-left: 100px;
+     margin-right: 150px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+
+/* блок с фото работ и настройка самих фото */
+.Photo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.upPhoto
+{
+    display: flex;
+    justify-content: center
+}
+
+.downPhoto
+{
+    display: flex;
+    justify-content: center
+}
+
+.Wimg
+{
+    width: 100%;
+    height: 100%;
+}
+/* блок с фото работ и настройка самих фото */
+
+.ourWork
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 239, 239);
+}
+
+.services
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicesTitle
+{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.service
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    text-align: start;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.contacts
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 239, 239);
+}
+
+.contactInfo
+{
+    border-top: 10px solid black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 30px;
+     color: black;
+     text-align: center;
+     
+}
+
+.mapInfo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.mapSet
+{
+    margin-top: 50px;
+}
+/* блоки */
+
+/* ccылки */
+a
+{
+    text-decoration: none;  
+}
+
+a:hover
+{
+    color:  red;
+}
+
+a:active
+{
+    color: black;
+}
+
+a:visited
+{
+    color: blue;
+}
+/* ccылки */
+
+/* настройка картинок-ссылок на сети */
+.inst
+{
+    width: 50px;
+    height: auto;
+}
+.vk
+{
+    width: 50px;
+    height: auto;
+}
+.telega
+{
+    width: 50px;
+    height: auto;
+}
+/* настройка картинок-ссылок на сети */
+
+/* работа с текстом */
+.titleContact
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 65px;
+}
+
+.phoneSettings
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    
+}
+/* работа с текстом */
+
+/* MEDIA запросы */
+
+
+
+/* MEDIA запросы */
